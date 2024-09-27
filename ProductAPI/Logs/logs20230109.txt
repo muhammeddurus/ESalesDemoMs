@@ -1,0 +1,181 @@
+2023-01-09 13:10:19.793 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-09 13:10:19.906 +03:00 [INF] Now listening on: https://localhost:7265
+2023-01-09 13:10:19.906 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-09 13:10:19.909 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-09 13:10:19.910 +03:00 [INF] Hosting environment: Development
+2023-01-09 13:10:19.910 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-09 13:10:35.259 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:10:35.470 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:10:35.479 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:10:36.782 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:10:36.795 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1312.2863ms
+2023-01-09 13:10:36.795 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:10:36.799 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 1544.5272ms
+2023-01-09 13:10:54.753 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0
+2023-01-09 13:10:54.756 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:10:54.765 +03:00 [INF] Route matched with {action = "GetProductsWithCategoryId", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProductsWithCategoryId(Int32) on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-09 13:10:54.944 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:10:54.953 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI) in 187.5607ms
+2023-01-09 13:10:54.953 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:10:54.953 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0 - 200 - application/json;+charset=utf-8 199.7871ms
+2023-01-09 13:10:59.298 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:10:59.300 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:10:59.300 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:10:59.345 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:10:59.345 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 44.9134ms
+2023-01-09 13:10:59.345 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:10:59.346 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 47.4296ms
+2023-01-09 13:12:27.598 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0
+2023-01-09 13:12:27.600 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:12:27.600 +03:00 [INF] Route matched with {action = "GetProductsWithCategoryId", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProductsWithCategoryId(Int32) on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-09 13:12:27.607 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:12:27.607 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI) in 6.8174ms
+2023-01-09 13:12:27.607 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:12:27.607 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0 - 200 - application/json;+charset=utf-8 8.9319ms
+2023-01-09 13:12:27.635 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:12:27.635 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:12:27.635 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:12:27.637 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:12:27.638 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 2.3377ms
+2023-01-09 13:12:27.638 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:12:27.638 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 2.7906ms
+2023-01-09 13:14:24.810 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0
+2023-01-09 13:14:24.812 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:14:24.812 +03:00 [INF] Route matched with {action = "GetProductsWithCategoryId", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProductsWithCategoryId(Int32) on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-09 13:14:24.817 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:14:24.818 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI) in 5.8637ms
+2023-01-09 13:14:24.818 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:14:24.818 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0 - 200 - application/json;+charset=utf-8 7.1636ms
+2023-01-09 13:14:30.658 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0
+2023-01-09 13:14:30.658 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:14:30.658 +03:00 [INF] Route matched with {action = "GetProductsWithCategoryId", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProductsWithCategoryId(Int32) on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-09 13:14:30.666 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:14:30.666 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI) in 7.3831ms
+2023-01-09 13:14:30.666 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:14:30.666 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0 - 200 - application/json;+charset=utf-8 7.8656ms
+2023-01-09 13:14:32.942 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0
+2023-01-09 13:14:32.942 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:14:32.942 +03:00 [INF] Route matched with {action = "GetProductsWithCategoryId", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProductsWithCategoryId(Int32) on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-09 13:14:32.951 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:14:32.951 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI) in 8.8871ms
+2023-01-09 13:14:32.951 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:14:32.951 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0 - 200 - application/json;+charset=utf-8 9.4134ms
+2023-01-09 13:14:38.889 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0
+2023-01-09 13:14:38.890 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:14:38.890 +03:00 [INF] Route matched with {action = "GetProductsWithCategoryId", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProductsWithCategoryId(Int32) on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-09 13:14:38.898 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:14:38.898 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI) in 7.9958ms
+2023-01-09 13:14:38.898 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:14:38.898 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0 - 200 - application/json;+charset=utf-8 8.7133ms
+2023-01-09 13:14:45.562 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0
+2023-01-09 13:14:45.562 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:14:45.562 +03:00 [INF] Route matched with {action = "GetProductsWithCategoryId", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProductsWithCategoryId(Int32) on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-09 13:14:45.564 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:14:45.564 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI) in 1.8732ms
+2023-01-09 13:14:45.564 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:14:45.564 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0 - 200 - application/json;+charset=utf-8 2.4539ms
+2023-01-09 13:14:45.590 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:14:45.591 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:14:45.591 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:14:45.593 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:14:45.593 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.8815ms
+2023-01-09 13:14:45.593 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:14:45.593 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 2.4273ms
+2023-01-09 13:17:32.943 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0
+2023-01-09 13:17:32.943 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:17:32.943 +03:00 [INF] Route matched with {action = "GetProductsWithCategoryId", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProductsWithCategoryId(Int32) on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-09 13:17:32.948 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:17:32.949 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI) in 5.0953ms
+2023-01-09 13:17:32.949 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:17:32.949 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0 - 200 - application/json;+charset=utf-8 5.6746ms
+2023-01-09 13:17:32.972 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:17:32.972 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:17:32.972 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:17:32.973 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:17:32.973 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.2646ms
+2023-01-09 13:17:32.973 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:17:32.973 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 1.6698ms
+2023-01-09 13:17:50.643 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0
+2023-01-09 13:17:50.643 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:17:50.643 +03:00 [INF] Route matched with {action = "GetProductsWithCategoryId", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProductsWithCategoryId(Int32) on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-09 13:17:50.645 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:17:50.645 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI) in 1.9227ms
+2023-01-09 13:17:50.645 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProductsWithCategoryId (ProductAPI)'
+2023-01-09 13:17:50.645 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product/products-with-category/1 - 0 - 200 - application/json;+charset=utf-8 2.5080ms
+2023-01-09 13:18:46.469 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:18:46.469 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:18:46.469 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:18:46.472 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:18:46.472 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 2.6901ms
+2023-01-09 13:18:46.472 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:18:46.472 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 3.5999ms
+2023-01-09 13:19:02.838 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:19:02.838 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:19:02.838 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:19:02.840 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:19:02.840 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.6616ms
+2023-01-09 13:19:02.840 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:19:02.840 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 2.3603ms
+2023-01-09 13:20:33.444 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:20:33.444 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:20:33.444 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:20:33.446 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:20:33.446 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.9296ms
+2023-01-09 13:20:33.446 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:20:33.446 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 2.4618ms
+2023-01-09 13:20:46.112 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:20:46.112 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:20:46.112 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:20:46.114 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:20:46.114 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.8793ms
+2023-01-09 13:20:46.114 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:20:46.114 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 2.5088ms
+2023-01-09 13:21:51.098 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:21:51.098 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:21:51.098 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:21:51.101 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:21:51.101 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 2.247ms
+2023-01-09 13:21:51.101 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:21:51.101 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 2.7558ms
+2023-01-09 13:22:30.430 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:22:30.430 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:22:30.430 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:22:30.432 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:22:30.432 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.599ms
+2023-01-09 13:22:30.432 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:22:30.432 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 2.0948ms
+2023-01-09 13:22:59.760 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:22:59.761 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:22:59.761 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:22:59.762 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:22:59.762 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 0.8961ms
+2023-01-09 13:22:59.762 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:22:59.762 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 1.2487ms
+2023-01-09 13:23:40.831 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:23:40.832 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:23:40.832 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:23:40.834 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:23:40.834 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 2.0077ms
+2023-01-09 13:23:40.834 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:23:40.834 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 2.4535ms
+2023-01-09 13:24:03.573 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:24:03.574 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:24:03.574 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:24:03.574 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:24:03.575 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 0.8542ms
+2023-01-09 13:24:03.575 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:24:03.575 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 1.4980ms
+2023-01-09 13:24:14.717 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:24:14.718 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:24:14.718 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:24:14.719 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:24:14.719 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.1765ms
+2023-01-09 13:24:14.719 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:24:14.719 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 1.8152ms
+2023-01-09 13:24:33.453 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-09 13:24:33.453 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:24:33.453 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-09 13:24:33.455 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-09 13:24:33.455 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 2.252ms
+2023-01-09 13:24:33.455 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-09 13:24:33.455 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 2.7938ms

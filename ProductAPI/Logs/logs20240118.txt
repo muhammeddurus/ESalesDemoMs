@@ -1,0 +1,319 @@
+2024-01-18 08:42:50.034 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:42:51.337 +03:00 [INF] Now listening on: https://localhost:5000
+2024-01-18 08:42:51.359 +03:00 [INF] Now listening on: http://localhost:5265
+2024-01-18 08:42:51.392 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:42:51.457 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:42:51.469 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\ProductAPI\
+2024-01-18 08:43:04.673 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/api/Product - 0
+2024-01-18 08:43:04.799 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2024-01-18 08:43:04.805 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2024-01-18 08:43:37.500 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/index.html - -
+2024-01-18 08:43:37.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 423.4685ms
+2024-01-18 08:43:37.980 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:43:37.986 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 6.1189ms
+2024-01-18 08:43:37.998 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - -
+2024-01-18 08:43:38.125 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 127.0301ms
+2024-01-18 08:43:38.452 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - -
+2024-01-18 08:43:38.616 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 164.5324ms
+2024-01-18 08:43:40.381 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-18 08:43:40.389 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 35578.6325ms
+2024-01-18 08:43:40.389 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2024-01-18 08:43:40.401 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/api/Product - 0 - 200 - application/json;+charset=utf-8 35731.5005ms
+2024-01-18 08:48:58.578 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:48:58.773 +03:00 [INF] Now listening on: https://localhost:5000
+2024-01-18 08:48:58.774 +03:00 [INF] Now listening on: http://localhost:5265
+2024-01-18 08:48:58.780 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:48:58.781 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:48:58.782 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\ProductAPI\
+2024-01-18 08:48:59.394 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/index.html - -
+2024-01-18 08:48:59.622 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 230.9719ms
+2024-01-18 08:48:59.632 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - -
+2024-01-18 08:48:59.633 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:48:59.641 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 8.0391ms
+2024-01-18 08:48:59.674 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.5624ms
+2024-01-18 08:48:59.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - -
+2024-01-18 08:48:59.821 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.5572ms
+2024-01-18 08:49:40.979 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5000/api/Category application/json 2173
+2024-01-18 08:49:41.046 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:49:41.061 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:49:41.141 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 08:49:41.152 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 81.8652ms
+2024-01-18 08:49:41.152 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:49:41.158 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5000/api/Category application/json 2173 - 400 - application/problem+json;+charset=utf-8 178.5352ms
+2024-01-18 08:50:18.212 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:50:18.466 +03:00 [INF] Now listening on: https://localhost:5000
+2024-01-18 08:50:18.467 +03:00 [INF] Now listening on: http://localhost:5265
+2024-01-18 08:50:18.473 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:50:18.475 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:50:18.476 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\ProductAPI\
+2024-01-18 08:50:19.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/index.html - -
+2024-01-18 08:50:19.499 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - -
+2024-01-18 08:50:19.500 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:50:19.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 287.9815ms
+2024-01-18 08:50:19.512 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 13.0522ms
+2024-01-18 08:50:19.612 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 113.5646ms
+2024-01-18 08:50:19.675 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - -
+2024-01-18 08:50:19.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.7847ms
+2024-01-18 08:51:36.770 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5000/api/Category application/json 84
+2024-01-18 08:51:36.845 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:51:36.858 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:51:46.732 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 08:51:46.736 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 9873.7265ms
+2024-01-18 08:51:46.736 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:51:46.744 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5000/api/Category application/json 84 - 200 0 - 9973.4638ms
+2024-01-18 08:52:11.983 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category application/json 83
+2024-01-18 08:52:11.987 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:52:11.988 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:52:14.825 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 08:52:14.825 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 2836.8022ms
+2024-01-18 08:52:14.825 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:52:14.826 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/api/Category application/json 83 - 200 0 - 2842.5043ms
+2024-01-18 08:53:34.612 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/api/Category application/json 83
+2024-01-18 08:53:34.614 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:53:34.614 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:53:35.284 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-18 08:53:35.286 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 671.6434ms
+2024-01-18 08:53:35.286 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:53:35.287 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/api/Category application/json 83 - 200 - application/json;+charset=utf-8 674.2202ms
+2024-01-18 08:53:48.433 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category application/json 73
+2024-01-18 08:53:48.433 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:53:48.433 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:53:51.131 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 08:53:51.131 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 2697.8322ms
+2024-01-18 08:53:51.131 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:53:51.131 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/api/Category application/json 73 - 200 0 - 2698.2712ms
+2024-01-18 08:53:56.314 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/api/Category application/json 73
+2024-01-18 08:53:56.315 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:53:56.315 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:53:56.333 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-18 08:53:56.333 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 18.611ms
+2024-01-18 08:53:56.333 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:53:56.333 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/api/Category application/json 73 - 200 - application/json;+charset=utf-8 19.0201ms
+2024-01-18 08:54:11.399 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/api/Category - 0
+2024-01-18 08:54:11.400 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:54:11.400 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:54:14.887 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-18 08:54:14.887 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 3487.524ms
+2024-01-18 08:54:14.887 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:54:14.887 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/api/Category - 0 - 200 - application/json;+charset=utf-8 3488.0625ms
+2024-01-18 08:54:31.867 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/api/Category - 0
+2024-01-18 08:54:31.867 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:54:31.868 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:55:53.233 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-18 08:55:53.244 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 81376.8824ms
+2024-01-18 08:55:53.244 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:55:53.249 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/api/Category - 0 - 200 - application/json;+charset=utf-8 81379.9889ms
+2024-01-18 08:56:38.161 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category application/json 73
+2024-01-18 08:56:38.163 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:56:38.163 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:57:16.408 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 08:57:16.730 +03:00 [INF] Now listening on: https://localhost:5000
+2024-01-18 08:57:16.732 +03:00 [INF] Now listening on: http://localhost:5265
+2024-01-18 08:57:16.741 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 08:57:16.742 +03:00 [INF] Hosting environment: Development
+2024-01-18 08:57:16.744 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\ProductAPI\
+2024-01-18 08:57:17.204 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/index.html - -
+2024-01-18 08:57:17.459 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 258.6995ms
+2024-01-18 08:57:17.463 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 08:57:17.463 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - -
+2024-01-18 08:57:17.467 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 3.9639ms
+2024-01-18 08:57:17.521 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.1806ms
+2024-01-18 08:57:17.560 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - -
+2024-01-18 08:57:17.655 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.5269ms
+2024-01-18 08:57:20.298 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category application/json 73
+2024-01-18 08:57:20.365 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:57:20.379 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:57:24.872 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 08:57:24.879 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 4493.1704ms
+2024-01-18 08:57:24.879 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 08:57:24.887 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/api/Category application/json 73 - 200 0 - 4589.3417ms
+2024-01-18 08:57:30.893 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/api/Category - 0
+2024-01-18 08:57:30.894 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:57:30.894 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:57:32.398 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-18 08:57:32.400 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1505.4168ms
+2024-01-18 08:57:32.400 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:57:32.400 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/api/Category - 0 - 200 - application/json;+charset=utf-8 1507.2125ms
+2024-01-18 08:59:38.329 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5000/api/Category - 0
+2024-01-18 08:59:38.333 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:59:38.333 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 08:59:41.027 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-18 08:59:41.028 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 2694.1048ms
+2024-01-18 08:59:41.028 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2024-01-18 08:59:41.028 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5000/api/Category - 0 - 200 - application/json;+charset=utf-8 2698.5926ms
+2024-01-18 09:06:10.049 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category text/plain;+charset=utf-8 107
+2024-01-18 09:06:10.049 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:06:10.049 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:06:10.055 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-01-18 09:06:10.056 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 6.2622ms
+2024-01-18 09:06:10.056 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:06:10.056 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/api/Category text/plain;+charset=utf-8 107 - 415 - application/problem+json;+charset=utf-8 6.7479ms
+2024-01-18 09:18:28.320 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 107
+2024-01-18 09:18:28.321 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:18:28.321 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:18:58.880 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 09:18:58.880 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 30558.5739ms
+2024-01-18 09:18:58.880 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:18:58.880 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 107 - 200 0 - 30559.1047ms
+2024-01-18 09:24:37.188 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 09:24:38.454 +03:00 [INF] Now listening on: https://localhost:5000
+2024-01-18 09:24:38.501 +03:00 [INF] Now listening on: http://localhost:5265
+2024-01-18 09:24:38.571 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 09:24:38.612 +03:00 [INF] Hosting environment: Development
+2024-01-18 09:24:38.646 +03:00 [INF] Content root path: C:\Users\muhammed.durus\Desktop\Eğitim ve Dökümanlar\DemoMicroservices\ProductAPI\
+2024-01-18 09:24:38.805 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/index.html - -
+2024-01-18 09:24:39.189 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 09:24:39.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - -
+2024-01-18 09:24:39.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 402.2108ms
+2024-01-18 09:24:39.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 20.3636ms
+2024-01-18 09:24:39.278 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.1626ms
+2024-01-18 09:24:39.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - -
+2024-01-18 09:24:39.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.7075ms
+2024-01-18 09:27:13.543 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 0
+2024-01-18 09:27:13.613 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:27:13.630 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:27:13.718 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 09:27:13.727 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 92.7785ms
+2024-01-18 09:27:13.728 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:27:13.732 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 0 - 400 - application/problem+json;+charset=utf-8 188.8382ms
+2024-01-18 09:29:21.516 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 107
+2024-01-18 09:29:21.520 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:29:21.522 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:29:27.256 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 09:29:27.256 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 5734.2089ms
+2024-01-18 09:29:27.257 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:29:27.261 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 107 - 200 0 - 5744.5345ms
+2024-01-18 09:30:09.349 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 107
+2024-01-18 09:30:09.352 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:30:09.352 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:30:12.840 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 09:30:12.840 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 3487.9152ms
+2024-01-18 09:30:12.840 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:30:12.841 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 107 - 200 0 - 3491.8336ms
+2024-01-18 09:31:10.375 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 107
+2024-01-18 09:31:10.407 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:31:10.407 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:31:16.832 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 09:31:16.832 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 6425.0033ms
+2024-01-18 09:31:16.832 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:31:16.832 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 107 - 200 0 - 6457.5627ms
+2024-01-18 09:32:00.324 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 107
+2024-01-18 09:32:00.324 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:32:00.326 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:32:00.356 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 09:32:00.356 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 30.1075ms
+2024-01-18 09:32:00.356 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:32:00.356 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5000/api/Category application/json;+charset=utf-8 107 - 200 0 - 32.3127ms
+2024-01-18 09:33:05.454 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 09:33:29.589 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 09:33:29.898 +03:00 [INF] Now listening on: https://localhost:5001
+2024-01-18 09:33:29.899 +03:00 [INF] Now listening on: http://localhost:5266
+2024-01-18 09:33:29.905 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 09:33:29.907 +03:00 [INF] Hosting environment: Development
+2024-01-18 09:33:29.908 +03:00 [INF] Content root path: C:\dev\sharp\DemoMicroservices\ProductAPI\
+2024-01-18 09:33:30.675 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2024-01-18 09:33:30.756 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 83.9115ms
+2024-01-18 09:33:30.763 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2024-01-18 09:33:30.962 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2024-01-18 09:33:30.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 199.5991ms
+2024-01-18 09:33:30.963 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2024-01-18 09:33:30.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 09:33:30.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2024-01-18 09:33:30.975 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2024-01-18 09:33:30.978 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 4.0640ms
+2024-01-18 09:33:31.017 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-18 09:33:31.017 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-18 09:33:31.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 143632 text/css 55.5606ms
+2024-01-18 09:33:31.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 42.9820ms
+2024-01-18 09:33:31.021 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-18 09:33:31.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 57.7365ms
+2024-01-18 09:33:31.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.8669ms
+2024-01-18 09:33:31.161 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2024-01-18 09:33:31.180 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2024-01-18 09:33:31.181 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-01-18 09:33:31.181 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 0.4541ms
+2024-01-18 09:33:31.281 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.7351ms
+2024-01-18 09:37:46.216 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0
+2024-01-18 09:37:46.310 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:37:46.328 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:37:46.421 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 09:37:46.431 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 95.5365ms
+2024-01-18 09:37:46.431 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:37:46.439 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0 - 400 - application/problem+json;+charset=utf-8 223.6697ms
+2024-01-18 09:37:47.793 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107
+2024-01-18 09:37:47.795 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:37:47.795 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:37:51.435 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 09:37:51.435 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 3639.8237ms
+2024-01-18 09:37:51.435 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:37:51.442 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107 - 200 0 - 3649.3397ms
+2024-01-18 09:38:01.863 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0
+2024-01-18 09:38:01.866 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:38:01.866 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:38:01.867 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 09:38:01.867 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 1.2642ms
+2024-01-18 09:38:01.867 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:38:01.867 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0 - 400 - application/problem+json;+charset=utf-8 3.8115ms
+2024-01-18 09:38:01.877 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0
+2024-01-18 09:38:01.878 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:38:01.878 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:38:01.878 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 09:38:01.879 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 0.5065ms
+2024-01-18 09:38:01.879 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:38:01.879 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0 - 400 - application/problem+json;+charset=utf-8 1.3619ms
+2024-01-18 09:38:01.936 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107
+2024-01-18 09:38:01.936 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:38:01.936 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 09:38:03.578 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 09:38:03.578 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 1642.1958ms
+2024-01-18 09:38:03.578 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 09:38:03.578 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107 - 200 0 - 1642.5711ms
+2024-01-18 13:11:32.313 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-18 13:11:32.629 +03:00 [INF] Now listening on: https://localhost:5001
+2024-01-18 13:11:32.630 +03:00 [INF] Now listening on: http://localhost:5266
+2024-01-18 13:11:32.639 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-18 13:11:32.640 +03:00 [INF] Hosting environment: Development
+2024-01-18 13:11:32.642 +03:00 [INF] Content root path: C:\dev\sharp\DemoMicroservices\ProductAPI\
+2024-01-18 13:11:33.348 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2024-01-18 13:11:33.832 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 482.4556ms
+2024-01-18 13:11:33.965 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2024-01-18 13:11:34.198 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 233.3322ms
+2024-01-18 13:11:34.629 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2024-01-18 13:11:35.016 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 387.0288ms
+2024-01-18 13:11:35.092 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2024-01-18 13:11:35.365 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 273.3496ms
+2024-01-18 13:17:49.931 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107
+2024-01-18 13:17:50.012 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0
+2024-01-18 13:17:50.071 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 13:17:50.071 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 13:17:50.088 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 13:17:50.088 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 13:18:00.777 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 13:18:00.787 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 10665.6874ms
+2024-01-18 13:18:00.788 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 13:18:00.800 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0 - 400 - application/problem+json;+charset=utf-8 10761.3060ms
+2024-01-18 13:18:02.387 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 13:18:02.387 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 12267.7381ms
+2024-01-18 13:18:02.387 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 13:18:02.392 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107 - 200 0 - 12428.9764ms
+2024-01-18 13:18:06.179 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0
+2024-01-18 13:18:06.182 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 13:18:06.182 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 13:18:06.185 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 13:18:06.185 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 2.8508ms
+2024-01-18 13:18:06.185 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 13:18:06.186 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0 - 400 - application/problem+json;+charset=utf-8 6.9729ms
+2024-01-18 13:18:06.208 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0
+2024-01-18 13:18:06.208 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 13:18:06.208 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 13:18:06.209 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-18 13:18:06.209 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 0.6162ms
+2024-01-18 13:18:06.209 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 13:18:06.209 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 0 - 400 - application/problem+json;+charset=utf-8 1.1109ms
+2024-01-18 13:18:10.317 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107
+2024-01-18 13:18:10.317 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 13:18:10.317 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-18 13:18:11.609 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-18 13:18:11.609 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 1288.03ms
+2024-01-18 13:18:11.609 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-18 13:18:11.609 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107 - 200 0 - 1288.6643ms

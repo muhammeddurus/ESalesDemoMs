@@ -1,0 +1,105 @@
+2024-01-22 13:30:29.557 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-22 13:30:30.031 +03:00 [INF] Now listening on: https://localhost:5001
+2024-01-22 13:30:30.033 +03:00 [INF] Now listening on: http://localhost:5266
+2024-01-22 13:30:30.041 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-22 13:30:30.042 +03:00 [INF] Hosting environment: Development
+2024-01-22 13:30:30.044 +03:00 [INF] Content root path: C:\dev\sharp\DemoMicroservices\ProductAPI\
+2024-01-22 13:30:32.922 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2024-01-22 13:30:33.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2024-01-22 13:30:33.480 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 564.8744ms
+2024-01-22 13:30:33.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2024-01-22 13:30:33.488 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 9.3386ms
+2024-01-22 13:30:33.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 162.5496ms
+2024-01-22 13:30:33.819 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2024-01-22 13:30:33.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.6293ms
+2024-01-22 13:31:18.833 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107
+2024-01-22 13:31:18.945 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:31:18.961 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 13:31:21.875 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 13:31:21.880 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 2913.4834ms
+2024-01-22 13:31:21.880 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:31:21.889 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107 - 200 0 - 3055.9977ms
+2024-01-22 13:31:23.823 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107
+2024-01-22 13:31:23.825 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:31:23.825 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 13:31:25.187 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 13:31:25.187 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 1361.2874ms
+2024-01-22 13:31:25.187 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:31:25.187 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107 - 200 0 - 1363.8468ms
+2024-01-22 13:32:37.111 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107
+2024-01-22 13:32:37.113 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:32:37.114 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 13:34:20.296 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 13:34:20.296 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 103179.9922ms
+2024-01-22 13:34:20.296 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:34:20.296 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 107 - 0 - - 103182.5050ms
+2024-01-22 13:42:24.992 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 54
+2024-01-22 13:42:24.992 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:42:24.992 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 13:42:26.973 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 13:42:26.973 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 1981.0113ms
+2024-01-22 13:42:26.973 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:42:26.974 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 54 - 200 0 - 1981.7249ms
+2024-01-22 13:44:53.800 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 68
+2024-01-22 13:44:53.800 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:44:53.800 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 13:44:54.566 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 13:44:54.566 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 765.7283ms
+2024-01-22 13:44:54.566 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:44:54.566 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 68 - 200 0 - 766.4196ms
+2024-01-22 13:48:15.339 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 86
+2024-01-22 13:48:15.340 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:48:15.340 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 13:48:16.666 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 13:48:16.666 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 1325.8769ms
+2024-01-22 13:48:16.666 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:48:16.666 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 86 - 200 0 - 1326.3643ms
+2024-01-22 13:50:13.233 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 56
+2024-01-22 13:50:13.233 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:50:13.233 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 13:50:14.259 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 13:50:14.259 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 1025.6928ms
+2024-01-22 13:50:14.259 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:50:14.259 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 56 - 200 0 - 1026.2220ms
+2024-01-22 13:51:11.274 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 72
+2024-01-22 13:51:11.278 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:51:11.278 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 13:51:19.768 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 13:51:19.768 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 8489.6243ms
+2024-01-22 13:51:19.768 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:51:19.768 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 72 - 200 0 - 8493.6643ms
+2024-01-22 13:59:23.857 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 61
+2024-01-22 13:59:23.858 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:59:23.858 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 13:59:25.639 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 13:59:25.639 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 1780.982ms
+2024-01-22 13:59:25.639 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 13:59:25.639 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 61 - 200 0 - 1781.5411ms
+2024-01-22 14:00:31.385 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 61
+2024-01-22 14:00:31.386 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 14:00:31.386 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 14:00:32.519 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 14:00:32.519 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 1131.939ms
+2024-01-22 14:00:32.519 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 14:00:32.519 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 61 - 200 0 - 1136.8414ms
+2024-01-22 14:09:06.585 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 67
+2024-01-22 14:09:06.585 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 14:09:06.585 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 14:09:12.350 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 14:09:12.350 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 5764.5577ms
+2024-01-22 14:09:12.350 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 14:09:12.350 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 67 - 200 0 - 5765.0532ms
+2024-01-22 14:09:43.128 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 67
+2024-01-22 14:09:43.130 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 14:09:43.130 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 14:09:44.043 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 14:09:44.043 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 912.7985ms
+2024-01-22 14:09:44.043 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 14:09:44.043 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 67 - 200 0 - 915.7881ms
+2024-01-22 14:14:34.845 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 63
+2024-01-22 14:14:34.845 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 14:14:34.845 +03:00 [INF] Route matched with {action = "AddCategory", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddCategory(Entities.Models.Category) on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2024-01-22 14:14:36.015 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-01-22 14:14:36.015 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI) in 1169.6408ms
+2024-01-22 14:14:36.015 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.AddCategory (ProductAPI)'
+2024-01-22 14:14:36.015 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:5001/api/Category application/json;+charset=utf-8 63 - 200 0 - 1170.0675ms

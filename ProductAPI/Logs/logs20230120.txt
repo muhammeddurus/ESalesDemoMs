@@ -1,0 +1,117 @@
+2023-01-20 09:37:46.951 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-20 09:37:47.054 +03:00 [INF] Now listening on: https://localhost:7265
+2023-01-20 09:37:47.054 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-20 09:37:47.058 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-20 09:37:47.058 +03:00 [INF] Hosting environment: Development
+2023-01-20 09:37:47.058 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-20 09:43:30.161 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-20 09:43:30.267 +03:00 [INF] Now listening on: https://localhost:7265
+2023-01-20 09:43:30.267 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-20 09:43:30.271 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-20 09:43:30.271 +03:00 [INF] Hosting environment: Development
+2023-01-20 09:43:30.271 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-20 09:44:39.003 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-20 09:44:39.209 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-20 09:44:39.215 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-20 09:44:40.452 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 09:44:40.464 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1244.8182ms
+2023-01-20 09:44:40.464 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-20 09:44:40.469 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 1468.4794ms
+2023-01-20 09:44:51.734 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-20 09:44:51.735 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-20 09:44:51.735 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-20 09:44:51.748 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 09:44:51.748 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 12.9545ms
+2023-01-20 09:44:51.748 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-20 09:44:51.749 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 14.9030ms
+2023-01-20 09:45:14.490 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Category - 0
+2023-01-20 09:45:14.493 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-20 09:45:14.493 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-20 09:45:14.536 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 09:45:14.536 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 42.9186ms
+2023-01-20 09:45:14.536 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-20 09:45:14.536 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Category - 0 - 200 - application/json;+charset=utf-8 45.4941ms
+2023-01-20 09:45:26.009 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product - 0
+2023-01-20 09:45:26.009 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 09:45:26.010 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-20 09:45:26.127 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 09:45:26.133 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 122.4037ms
+2023-01-20 09:45:26.133 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 09:45:26.133 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product - 0 - 200 - application/json;+charset=utf-8 123.8081ms
+2023-01-20 09:51:46.711 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product - 0
+2023-01-20 09:51:46.712 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 09:51:46.712 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-20 09:51:46.776 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 09:51:46.776 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 64.2072ms
+2023-01-20 09:51:46.776 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 09:51:46.776 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product - 0 - 200 - application/json;+charset=utf-8 64.9493ms
+2023-01-20 09:57:11.715 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product - 0
+2023-01-20 09:57:11.720 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-01-20 09:57:11.720 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2023-01-20 09:57:11.720 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 09:57:11.720 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-20 09:57:11.728 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 09:57:11.728 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 7.6027ms
+2023-01-20 09:57:11.728 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 09:57:11.728 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product - 0 - 200 - application/json;+charset=utf-8 12.7573ms
+2023-01-20 09:58:19.920 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product - 0
+2023-01-20 09:58:19.920 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-01-20 09:58:19.920 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+2023-01-20 09:58:19.920 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 09:58:19.920 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-20 09:58:19.925 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 09:58:19.926 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 5.1581ms
+2023-01-20 09:58:19.926 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 09:58:19.926 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product - 0 - 200 - application/json;+charset=utf-8 5.7391ms
+2023-01-20 10:00:25.794 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product - 0
+2023-01-20 10:00:25.794 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 10:00:25.795 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-20 10:00:25.800 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 10:00:25.800 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 5.437ms
+2023-01-20 10:00:25.800 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 10:00:25.800 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product - 0 - 200 - application/json;+charset=utf-8 6.4741ms
+2023-01-20 10:01:51.329 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product - 0
+2023-01-20 10:01:51.330 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 10:01:51.330 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-20 10:01:51.335 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 10:01:51.335 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 5.441ms
+2023-01-20 10:01:51.335 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 10:01:51.336 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product - 0 - 200 - application/json;+charset=utf-8 6.1374ms
+2023-01-20 14:13:39.153 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-20 14:13:39.252 +03:00 [INF] Now listening on: https://localhost:7265
+2023-01-20 14:13:39.252 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-20 14:13:39.256 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-20 14:13:39.256 +03:00 [INF] Hosting environment: Development
+2023-01-20 14:13:39.256 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-20 14:19:17.191 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product - 0
+2023-01-20 14:19:17.388 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 14:19:17.397 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-20 14:19:18.658 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 14:19:18.678 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 1275.9133ms
+2023-01-20 14:19:18.678 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 14:19:18.682 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product - 0 - 200 - application/json;+charset=utf-8 1493.5924ms
+2023-01-20 15:25:01.195 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-20 15:25:01.373 +03:00 [INF] Now listening on: https://localhost:7265
+2023-01-20 15:25:01.373 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-20 15:25:01.377 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-20 15:25:01.378 +03:00 [INF] Hosting environment: Development
+2023-01-20 15:25:01.378 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-20 15:27:59.429 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product - 0
+2023-01-20 15:27:59.637 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 15:27:59.643 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-20 15:28:00.913 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-20 15:28:00.932 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 1284.8748ms
+2023-01-20 15:28:00.933 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-20 15:28:00.936 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product - 0 - 200 - application/json;+charset=utf-8 1509.8114ms

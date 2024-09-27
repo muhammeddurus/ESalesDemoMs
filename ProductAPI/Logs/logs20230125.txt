@@ -1,0 +1,252 @@
+2023-01-25 10:36:54.079 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-25 10:36:54.208 +03:00 [INF] Now listening on: https://localhost:7265
+2023-01-25 10:36:54.208 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-25 10:36:54.211 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-25 10:36:54.211 +03:00 [INF] Hosting environment: Development
+2023-01-25 10:36:54.211 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-25 14:07:57.967 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-25 14:07:58.079 +03:00 [INF] Now listening on: https://localhost:7265
+2023-01-25 14:07:58.079 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-25 14:07:58.082 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-25 14:07:58.082 +03:00 [INF] Hosting environment: Development
+2023-01-25 14:07:58.082 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-25 14:09:04.559 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/Product - 0
+2023-01-25 14:09:04.645 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-25 14:09:04.654 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-25 14:09:06.087 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:09:06.109 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 1449.5052ms
+2023-01-25 14:09:06.109 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-25 14:09:06.113 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/Product - 0 - 200 - application/json;+charset=utf-8 1556.0091ms
+2023-01-25 14:12:08.209 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-25 14:12:08.522 +03:00 [INF] Now listening on: https://localhost:7265
+2023-01-25 14:12:08.525 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-25 14:12:08.538 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-25 14:12:08.540 +03:00 [INF] Hosting environment: Development
+2023-01-25 14:12:08.542 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-25 14:12:09.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger - -
+2023-01-25 14:12:09.446 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger - - - 301 0 - 108.6895ms
+2023-01-25 14:12:09.457 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2023-01-25 14:12:09.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/swagger-ui.css - -
+2023-01-25 14:12:09.658 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/swagger-ui-bundle.js - -
+2023-01-25 14:12:09.667 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 210.0808ms
+2023-01-25 14:12:09.667 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/swagger-ui-standalone-preset.js - -
+2023-01-25 14:12:09.669 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2023-01-25 14:12:09.669 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2023-01-25 14:12:09.701 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 31.3967ms
+2023-01-25 14:12:09.759 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-01-25 14:12:09.759 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-01-25 14:12:09.762 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 94.7447ms
+2023-01-25 14:12:09.762 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/swagger-ui.css - - - 200 143632 text/css 105.5800ms
+2023-01-25 14:12:09.785 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 115.7369ms
+2023-01-25 14:12:09.789 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-01-25 14:12:09.789 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 131.5278ms
+2023-01-25 14:12:09.968 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2023-01-25 14:12:09.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/favicon-32x32.png - -
+2023-01-25 14:12:09.993 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-01-25 14:12:09.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/favicon-32x32.png - - - 200 628 image/png 0.3220ms
+2023-01-25 14:12:10.103 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.6951ms
+2023-01-25 14:12:39.014 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/grafana-test-text - -
+2023-01-25 14:12:39.081 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/grafana-test-text - - - 404 0 - 67.5131ms
+2023-01-25 14:12:43.173 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/grafana-test-text - -
+2023-01-25 14:12:43.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/grafana-test-text - - - 404 0 - 16.5658ms
+2023-01-25 14:15:04.089 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-25 14:15:04.372 +03:00 [INF] Now listening on: https://localhost:7265
+2023-01-25 14:15:04.373 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-25 14:15:04.382 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-25 14:15:04.384 +03:00 [INF] Hosting environment: Development
+2023-01-25 14:15:04.386 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-25 14:15:04.957 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/index.html - -
+2023-01-25 14:15:05.277 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/index.html - - - 200 - text/html;charset=utf-8 325.7296ms
+2023-01-25 14:15:05.326 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_vs/browserLink - -
+2023-01-25 14:15:05.326 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2023-01-25 14:15:05.332 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 5.6389ms
+2023-01-25 14:15:05.383 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.4055ms
+2023-01-25 14:15:05.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - -
+2023-01-25 14:15:05.633 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 128.4952ms
+2023-01-25 14:15:54.325 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/grafana-test-text - -
+2023-01-25 14:15:54.403 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/grafana-test-text - - - 404 0 - 78.0855ms
+2023-01-25 14:15:59.799 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/grafana-test-text - -
+2023-01-25 14:15:59.805 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/grafana-test-text - - - 404 0 - 5.9409ms
+2023-01-25 14:16:01.834 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - -
+2023-01-25 14:16:01.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7265/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 0.4506ms
+2023-01-25 14:16:49.669 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/ocelot/api/product - -
+2023-01-25 14:16:49.671 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/ocelot/api/product - - - 404 0 - 2.1607ms
+2023-01-25 14:17:02.552 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/product - -
+2023-01-25 14:17:02.557 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-25 14:17:02.567 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-25 14:17:11.302 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:17:11.315 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 8742.1069ms
+2023-01-25 14:17:11.315 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-25 14:17:11.324 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/product - - - 200 - application/json;+charset=utf-8 8772.0029ms
+2023-01-25 14:18:51.794 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/metrics-text - -
+2023-01-25 14:18:51.794 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/metrics-text - - - 404 0 - 0.7283ms
+2023-01-25 14:18:53.343 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/metrics-text - -
+2023-01-25 14:18:53.344 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/metrics-text - - - 404 0 - 0.9267ms
+2023-01-25 14:18:57.811 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7265/api/metrics-text - -
+2023-01-25 14:18:57.812 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7265/api/metrics-text - - - 404 0 - 1.0863ms
+2023-01-25 14:28:02.209 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-25 14:28:02.623 +03:00 [INF] Now listening on: https://localhost:5000
+2023-01-25 14:28:02.624 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-25 14:28:02.633 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-25 14:28:02.634 +03:00 [INF] Hosting environment: Development
+2023-01-25 14:28:02.636 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-25 14:28:03.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger - -
+2023-01-25 14:28:03.347 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger - - - 301 0 - 115.1246ms
+2023-01-25 14:28:03.356 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/index.html - -
+2023-01-25 14:28:03.552 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 195.9618ms
+2023-01-25 14:28:03.561 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/swagger-ui.css - -
+2023-01-25 14:28:03.562 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/swagger-ui-bundle.js - -
+2023-01-25 14:28:03.563 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/swagger-ui-standalone-preset.js - -
+2023-01-25 14:28:03.564 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-01-25 14:28:03.567 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - -
+2023-01-25 14:28:03.608 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 43.7336ms
+2023-01-25 14:28:03.627 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-01-25 14:28:03.627 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-01-25 14:28:03.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/swagger-ui.css - - - 200 143632 text/css 67.3536ms
+2023-01-25 14:28:03.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 65.3990ms
+2023-01-25 14:28:03.639 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-01-25 14:28:03.639 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 77.4109ms
+2023-01-25 14:28:03.653 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 86.0676ms
+2023-01-25 14:28:03.807 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - -
+2023-01-25 14:28:03.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/favicon-32x32.png - -
+2023-01-25 14:28:03.837 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-01-25 14:28:03.837 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/favicon-32x32.png - - - 200 628 image/png 0.3606ms
+2023-01-25 14:28:03.937 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.0480ms
+2023-01-25 14:28:10.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/metrics - -
+2023-01-25 14:28:10.242 +03:00 [INF] Executing endpoint 'Prometheus metrics'
+2023-01-25 14:28:10.368 +03:00 [INF] Executed endpoint 'Prometheus metrics'
+2023-01-25 14:28:10.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/metrics - - - 200 - text/plain;+version=0.0.4;+charset=utf-8 196.3079ms
+2023-01-25 14:28:10.405 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/favicon.ico - -
+2023-01-25 14:28:10.418 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/favicon.ico - - - 404 0 - 13.7821ms
+2023-01-25 14:29:04.889 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/api/product - -
+2023-01-25 14:29:04.895 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-25 14:29:04.906 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-25 14:29:04.992 +03:00 [INF] Executing action method ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) - Validation state: "Valid"
+2023-01-25 14:29:06.856 +03:00 [INF] Executed action method ProductAPI.Controllers.ProductController.GetProducts (ProductAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1857.8531ms.
+2023-01-25 14:29:06.865 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:29:06.881 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 1964.8859ms
+2023-01-25 14:29:06.881 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-25 14:29:06.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/api/product - - - 200 - application/json;+charset=utf-8 2003.9122ms
+2023-01-25 14:36:50.746 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/metr,cs - -
+2023-01-25 14:36:50.755 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/metr,cs - - - 404 0 - 9.9812ms
+2023-01-25 14:36:56.622 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/metrics - -
+2023-01-25 14:36:56.623 +03:00 [INF] Executing endpoint 'Prometheus metrics'
+2023-01-25 14:36:56.643 +03:00 [INF] Executed endpoint 'Prometheus metrics'
+2023-01-25 14:36:56.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/metrics - - - 200 - text/plain;+version=0.0.4;+charset=utf-8 20.9572ms
+2023-01-25 14:37:09.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/api/product - -
+2023-01-25 14:37:09.467 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-25 14:37:09.468 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetProducts() on controller ProductAPI.Controllers.ProductController (ProductAPI).
+2023-01-25 14:37:09.470 +03:00 [INF] Executing action method ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) - Validation state: "Valid"
+2023-01-25 14:37:09.890 +03:00 [INF] Executed action method ProductAPI.Controllers.ProductController.GetProducts (ProductAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 419.9819ms.
+2023-01-25 14:37:09.891 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.ProductDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:37:09.891 +03:00 [INF] Executed action ProductAPI.Controllers.ProductController.GetProducts (ProductAPI) in 423.4231ms
+2023-01-25 14:37:09.891 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.ProductController.GetProducts (ProductAPI)'
+2023-01-25 14:37:09.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/api/product - - - 200 - application/json;+charset=utf-8 426.1479ms
+2023-01-25 14:49:22.768 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-25 14:49:23.042 +03:00 [INF] Now listening on: https://localhost:5000
+2023-01-25 14:49:23.044 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-25 14:49:23.050 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-25 14:49:23.052 +03:00 [INF] Hosting environment: Development
+2023-01-25 14:49:23.053 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-25 14:49:24.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/index.html - -
+2023-01-25 14:49:24.274 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 273.2521ms
+2023-01-25 14:49:24.290 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - -
+2023-01-25 14:49:24.290 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-01-25 14:49:24.301 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 10.8895ms
+2023-01-25 14:49:24.345 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.1904ms
+2023-01-25 14:49:24.470 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - -
+2023-01-25 14:49:24.607 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.6870ms
+2023-01-25 14:49:37.941 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/metrics - -
+2023-01-25 14:49:38.026 +03:00 [INF] Executing endpoint 'Prometheus metrics'
+2023-01-25 14:49:38.122 +03:00 [INF] Executed endpoint 'Prometheus metrics'
+2023-01-25 14:49:38.123 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/metrics - - - 200 - text/plain;+version=0.0.4;+charset=utf-8 181.2632ms
+2023-01-25 14:49:46.056 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/api/Category - -
+2023-01-25 14:49:46.065 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:49:46.076 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-25 14:49:46.162 +03:00 [INF] Executing action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI) - Validation state: "Valid"
+2023-01-25 14:49:47.916 +03:00 [INF] Executed action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1744.6026ms.
+2023-01-25 14:49:47.927 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:49:47.942 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1854.9016ms
+2023-01-25 14:49:47.942 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:49:47.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/api/Category - - - 200 - application/json;+charset=utf-8 1899.1397ms
+2023-01-25 14:49:48.541 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/metrics - -
+2023-01-25 14:49:48.544 +03:00 [INF] Executing endpoint 'Prometheus metrics'
+2023-01-25 14:49:48.561 +03:00 [INF] Executed endpoint 'Prometheus metrics'
+2023-01-25 14:49:48.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/metrics - - - 200 - text/plain;+version=0.0.4;+charset=utf-8 19.8398ms
+2023-01-25 14:50:41.010 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/api/Category - -
+2023-01-25 14:50:41.011 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:41.011 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-25 14:50:41.015 +03:00 [INF] Executing action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI) - Validation state: "Valid"
+2023-01-25 14:50:41.040 +03:00 [INF] Executed action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 24.4209ms.
+2023-01-25 14:50:41.040 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:50:41.040 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 28.7743ms
+2023-01-25 14:50:41.040 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:41.040 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/api/Category - - - 200 - application/json;+charset=utf-8 30.9067ms
+2023-01-25 14:50:41.176 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/api/Category - -
+2023-01-25 14:50:41.176 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:41.176 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-25 14:50:41.178 +03:00 [INF] Executing action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI) - Validation state: "Valid"
+2023-01-25 14:50:41.222 +03:00 [INF] Executed action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 43.681ms.
+2023-01-25 14:50:41.222 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:50:41.222 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 45.4767ms
+2023-01-25 14:50:41.222 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:41.222 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/api/Category - - - 200 - application/json;+charset=utf-8 46.1119ms
+2023-01-25 14:50:41.533 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/api/Category - -
+2023-01-25 14:50:41.533 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:41.534 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-25 14:50:41.534 +03:00 [INF] Executing action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI) - Validation state: "Valid"
+2023-01-25 14:50:41.536 +03:00 [INF] Executed action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.1551ms.
+2023-01-25 14:50:41.536 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:50:41.536 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 2.8749ms
+2023-01-25 14:50:41.537 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:41.537 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/api/Category - - - 200 - application/json;+charset=utf-8 3.7705ms
+2023-01-25 14:50:41.753 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/api/Category - -
+2023-01-25 14:50:41.753 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:41.753 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-25 14:50:41.753 +03:00 [INF] Executing action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI) - Validation state: "Valid"
+2023-01-25 14:50:41.755 +03:00 [INF] Executed action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.498ms.
+2023-01-25 14:50:41.755 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:50:41.755 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.9906ms
+2023-01-25 14:50:41.755 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:41.755 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/api/Category - - - 200 - application/json;+charset=utf-8 2.8242ms
+2023-01-25 14:50:41.929 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/api/Category - -
+2023-01-25 14:50:41.929 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:41.929 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-25 14:50:41.930 +03:00 [INF] Executing action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI) - Validation state: "Valid"
+2023-01-25 14:50:41.931 +03:00 [INF] Executed action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.4084ms.
+2023-01-25 14:50:41.931 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:50:41.931 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.8872ms
+2023-01-25 14:50:41.931 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:41.932 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/api/Category - - - 200 - application/json;+charset=utf-8 2.5298ms
+2023-01-25 14:50:42.096 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/api/Category - -
+2023-01-25 14:50:42.096 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:42.097 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-25 14:50:42.097 +03:00 [INF] Executing action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI) - Validation state: "Valid"
+2023-01-25 14:50:42.098 +03:00 [INF] Executed action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.2303ms.
+2023-01-25 14:50:42.098 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:50:42.098 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.6023ms
+2023-01-25 14:50:42.098 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:42.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/api/Category - - - 200 - application/json;+charset=utf-8 2.0899ms
+2023-01-25 14:50:42.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/api/Category - -
+2023-01-25 14:50:42.265 +03:00 [INF] Executing endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:42.265 +03:00 [INF] Route matched with {action = "GetList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetList() on controller ProductAPI.Controllers.CategoryController (ProductAPI).
+2023-01-25 14:50:42.265 +03:00 [INF] Executing action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI) - Validation state: "Valid"
+2023-01-25 14:50:42.266 +03:00 [INF] Executed action method ProductAPI.Controllers.CategoryController.GetList (ProductAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.3656ms.
+2023-01-25 14:50:42.267 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Entities.Dto.CategoryDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-01-25 14:50:42.267 +03:00 [INF] Executed action ProductAPI.Controllers.CategoryController.GetList (ProductAPI) in 1.9349ms
+2023-01-25 14:50:42.267 +03:00 [INF] Executed endpoint 'ProductAPI.Controllers.CategoryController.GetList (ProductAPI)'
+2023-01-25 14:50:42.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/api/Category - - - 200 - application/json;+charset=utf-8 2.6749ms
+2023-01-25 15:08:26.185 +03:00 [INF] User profile is available. Using 'C:\Users\muhammed.durus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-01-25 15:08:26.546 +03:00 [INF] Now listening on: https://localhost:5000
+2023-01-25 15:08:26.548 +03:00 [INF] Now listening on: http://localhost:5265
+2023-01-25 15:08:26.555 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-25 15:08:26.556 +03:00 [INF] Hosting environment: Development
+2023-01-25 15:08:26.557 +03:00 [INF] Content root path: C:\dev\sharp\Muhammed\DemoMicroservices\ProductAPI\
+2023-01-25 15:08:27.055 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/index.html - -
+2023-01-25 15:08:27.371 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 319.6270ms
+2023-01-25 15:08:27.372 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - -
+2023-01-25 15:08:27.372 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/_vs/browserLink - -
+2023-01-25 15:08:27.382 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 10.1766ms
+2023-01-25 15:08:27.426 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.7180ms
+2023-01-25 15:08:27.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - -
+2023-01-25 15:08:27.620 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.7491ms
